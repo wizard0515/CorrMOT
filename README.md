@@ -13,6 +13,7 @@ With extensive experimental results on the MOT datasets, our approach demonstrat
 | Dataset    | MOTA | IDF1 | IDP  |  IDR  |  Rcll | Prcn  |
 |------------|------|------|------|-------|-------|-------|
 |MOT17       | 83.8 | 86.9 | 86.9 | 77.5% | 86.8% | 97.3% |
+
 ![](assets/eval.png)
 
 ## Installation
