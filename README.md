@@ -13,6 +13,7 @@ With extensive experimental results on the MOT datasets, our approach demonstrat
 | Dataset    | MOTA | IDF1 | IDP  |  IDR  |  Rcll | Prcn  |
 |------------|------|------|------|-------|-------|-------|
 |MOT17       | 83.8 | 86.9 | 86.9 | 77.5% | 86.8% | 97.3% |
+![](assets/eval.png)
 
 ## Installation
 * Clone this repo, and we'll call the directory that you cloned as ${CORRMOT_ROOT}
@@ -138,6 +139,9 @@ python demo.py mot --load_model ../models/corrmot.pth --conf_thres 0.4
 ```
 You can change --input-video and --output-root to get the demos of your own videos.
 --conf_thres can be set from 0.3 to 0.7 depending on your own videos.
+![](assets/result1.jpg)
+![](assets/result2.jpg)
+![](assets/result3.jpg)
 
 ## Train on custom dataset
 You can train FairMOT on custom dataset by following several steps bellow:
