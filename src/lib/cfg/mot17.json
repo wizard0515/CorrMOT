@@ -1,0 +1,15 @@
+{
+    "root":"G:/alibaba/CorrMOT/src/data",
+    "train":
+    {
+        "mot17":"./mot17.train"
+    },
+    "test_emb":
+    {
+        "mot17":"./mot17.train"
+    },
+    "test":
+    {
+        "mot17":"./mot17.train"
+    }
+}
